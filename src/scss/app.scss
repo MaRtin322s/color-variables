@@ -19,6 +19,9 @@ html {
   background: $background;
 }
 
+p{
+  color: $text-color;
+}
 .main {
   height: 100vh;
   display: flex;
@@ -26,6 +29,5 @@ html {
   justify-content: center;
   font-size: 10rem;
   flex-flow: column;
-  background-color: var(--body-color);
-  color: var(--text-color);
+  background-color: $body-color;
 }
